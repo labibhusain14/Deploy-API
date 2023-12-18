@@ -12,11 +12,11 @@ def create_app():
 
     # Cloud SQL database configuration
     db_user = "root"
-    db_password = "minatku1234567"
+    db_password = "minatkuapp"
     db_name = "db_minatku"
     db_socket_dir = "/cloudsql"
-    cloud_sql_connection_name = "minatku:asia-southeast2:dbminatku"
-    db_host = "34.101.48.255"  # Ganti dengan alamat IP publik database
+    cloud_sql_connection_name = "deploy-api-408210:asia-southeast2:minatkudb"
+    db_host = "34.128.74.245"  # Ganti dengan alamat IP publik database
     db_port = 3306
 
     # Configure the connection string
